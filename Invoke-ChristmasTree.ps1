@@ -11,6 +11,7 @@ function Invoke-ChristmasTree {
     $colorTwinkle = 31, 34, 33
     $ornaments = New-Object System.Collections.ArrayList
     $E = [char]27
+    
     "${E}[?25l"
 
     if ($TreeWidth % 2 -eq 0) { 
